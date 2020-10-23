@@ -8,7 +8,7 @@ Also we have a 700+ members tech community to support you on [our Telegram open 
 
 ## Installing
 
-As our stack is not a simple one we opted for standardizing our instructions do [Docker Compose](https://docs.docker.com/compose/install/), which will help you spin up every service in a few commands.
+As our stack is not a simple one, we opted for standardizing our instructions to use [Docker Compose](https://docs.docker.com/compose/install/), which will help you spin up every service in a few commands.
 
 Everything is expected to work with:
 
@@ -17,7 +17,7 @@ $ cp contrib/.env.sample .env
 $ docker-compose up
 ```
 
-**Note:** `docker-compose up` is just a health check to assure all dependencies are succesfully installed and the project is running well. To run properly Jarbas and Rosie there are a few more steps (migrations, for example), which are the ones below.
+**Note:** `docker-compose up` is just a health check to assure all dependencies are succesfully installed and the project is running well. To run Jarbas and Rosie properly there are a few more steps (migrations, for example), which are the ones below.
 
 Then `.env` file you just copied contains [environment variables for Jarbas](jarbas/README.md#settings). Feel free to customize it.
 
@@ -44,25 +44,25 @@ $ docker-compose run --rm django python manage.py searchvector
 $ docker-compose run --rm django python manage.py tweets
 ```
 
-The spin up the web server:
+To spin up the web server:
 
 ```console
 $ docker-compose up django
 ```
 
-Then browse from [`0.0.0.0:8000`](http://0.0.0.0:8000). [Check Jarbas's `README.md` for more details](jarbas/README.md).
+Then browse [`0.0.0.0:8000`](http://0.0.0.0:8000). [Check Jarbas's `README.md` for more details](jarbas/README.md).
 
 ## The basics of contributing
 
-A lot of discussions about ideas take place in the [Issues](https://github.com/okfn-brasil/serenata-de-amor/issues) section. There and interacting in the Telegram group you can catch up with what's going on and also suggest new ideas.
+A lot of discussions about ideas take place in the [Issues](https://github.com/okfn-brasil/serenata-de-amor/issues) section. There and interacting in the Telegram group you can catch up with what's going on, and also suggest new ideas.
 
-Unfortunatelly we have no public roadmap, barely an internal one – but you can follow what the core team is working on [on Trello](https://trello.com/b/5sE3ToT2/serenata).
+Unfortunatelly we have no public roadmap, barely an internal one – but you can follow what the core team is working [on Trello](https://trello.com/b/5sE3ToT2/serenata).
 
 ### The Git basics
 
 **1. _Fork_ this repository**
 
-There's a big button for that in GitHub interface, usually on the top right corner.
+There's a big button for that in the GitHub interface, usually on the top right corner.
 
 **2. Clone your fork of the repository**
 
@@ -89,7 +89,7 @@ Now it's your time to shine and write meaningful code to raise the bar of the pr
 $ git commit -am 'My pretty cool contribution'
 ```
 
-**6. Push to the branch to your fork**
+**6. Push to the branch on your fork**
 
 ```consle
 $ git push origin <YOUR-GITHUB-USERNAME>-new-stuff
@@ -97,4 +97,4 @@ $ git push origin <YOUR-GITHUB-USERNAME>-new-stuff
 
 **7. Create a new _Pull Request_**
 
-From your fork at GitHub usually there is a button to open pull requests.
+From your fork on GitHub usually there is a button to open pull requests.
