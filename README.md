@@ -19,21 +19,21 @@ Serenata de Amor is an open project using artificial intelligence for social con
 
 ### Who
 
-We are a group of people who believes in _power to the people_ motto. We are also part of the _Data Science for Civic Innovation Programme_ from [Open Knowledge Brasil](http://br.okfn.org).
+We are a group of people who believe in the _power to the people_ motto. We are also part of the _Data Science for Civic Innovation Programme_ from [Open Knowledge Brasil](http://br.okfn.org).
 
 Among founders and long-term members, we can list a group of eight people – plus numerous contributors from the open source and open knowledge communities:  [Tatiana Balachova](https://tatianasb.ru), [Felipe Cabral](https://twitter.com/felipebcabral), [Eduardo Cuducos](https://cuducos.me),  [Irio Musskopf](https://iriomk.com), [Bruno Pazzim](http://brunopazzim.com/), [Ana Schwendler](http://anaschwendler.com/), [Jessica Temporal](http://jtemporal.com/), [Yasodara Córdova](https://twitter.com/yaso) and [Pedro Vilanova](https://twitter.com/pedrovilanova).
 
 ### How
 
-Similar to organizations like Google, Facebook, and Netflix, we use technology to track government spendings and make open data accessible for everyone. We started looking into data from the Chamber of Deputies (Brazilian lower house) but we expanded to the Federal Senate (Brazilian upper house) and to municipalities.
+Similar to organizations like Google, Facebook, and Netflix, we use technology to track government spending and make open data accessible to everyone. We started inspecting data from the Chamber of Deputies (Brazilian lower house) but expanded to the Federal Senate (Brazilian upper house) and municipalities.
 
 ### When
 
-Irio had the main ideas for the project in early 2016. For a few months, he experimented and gathered people around the project. September, 2016 marks the launching of [our first crowd funding](https://catarse.me/serenata). Since then, we have been creating open source technological products and tools, as well as high quality content on civic tech on our [Facebook](https://fb.com/operacaoserenatadeamor) and [Medium](https://medium.com/serenata).
+Irio had the main ideas for the project in early 2016. For a few months, he experimented and gathered people around the project. September, 2016 marks the launching of [our first crowd funding](https://catarse.me/serenata). Since then, we have been creating open source technological products and tools, as well as high quality content on civic tech on our [Facebook](https://fb.com/operacaoserenatadeamor) and [Medium](https://medium.com/serenata) pages.
 
 ### Where
 
-We have no non-virtual headquarters, but we work remotely everyday. Most of our ideas are crafted to work in any country that offers open data, but our main implementations focus in Brazil.
+We have no brick and mortar headquarters, but we work remotely everyday. Most of our ideas are crafted to work in any country that offers access to open data, but our main implementations focus in Brazil.
 
 ### Why
 
@@ -43,13 +43,13 @@ Empowering citizens with data is important: people talk about _smart cities_, _s
 
 ### What
 
-Serenata de Amor develops open source tools to make it easy for people to use open data. The focus is to gather relevant insights and share them in an accessible interface. Through this interface, we invite citizens to dialogue with politicians, state and government about public spendings.
+Serenata de Amor develops open source tools to make it easy for people to use open data. The focus is to gather relevant insights and share them in an accessible interface. Through this interface, we invite citizens to engage in the discussion about public spending, together with politicians, state and government.
 
 ### Who
 
-Serenata's main role is played by [Rosie](rosie/README.md): she is an artificial intelligence who analyzes Brazilian congresspeople expenses while they are in office. Rosie can find suspicious spendings and engage citizens in the discussion about these findings. [She's on Twitter](https://twitter.com/RosieDaSerenata).
+Serenata's main role is played by [Rosie](rosie/README.md): she is an artificial intelligence that analyzes Brazilian congresspeople expenses. Rosie can find suspicious spendings and engage citizens in the discussion about these findings. [She's on Twitter](https://twitter.com/RosieDaSerenata).
 
-To allow people to visualize and make sense of data Rosie generates, we have created [Jarbas](jarbas/README.md). On this website, users can browse congresspeople expenses and get details about each of the suspicions. It is the starting point to validate a suspicion.
+To allow people to visualize and make sense of the data Rosie generates, we have created [Jarbas](jarbas/README.md). On this website, users can browse congresspeople expenses and get details about each suspicious expense. It is the starting point for validating a suspicion.
 
 ### How
 
@@ -59,7 +59,7 @@ We have two main repositories [on GitHub](https://github.com/okfn-brasil). This 
 
 Despite all these players acting together, the core part of the job is ran manually from time to time. The only part that is always online is Jarbas – freely serving a wide range of information about public expenditure 24/7.
 
-Roughly once a month, we manually run Rosie and update Jarbas. A few times per year, we upload versioned datasets accessible via the toolbox – but we encourage you to use the toolbox to generate fresh datasets whenever you need.
+Roughly once a month, we manually run Rosie and update Jarbas. A few times a year, we upload versioned datasets, accessible via the toolbox – but we encourage you to use the toolbox to generate fresh datasets whenever you need.
 
 ### Where
 
